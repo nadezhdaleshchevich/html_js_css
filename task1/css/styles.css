@@ -1,0 +1,29 @@
+#container {
+	display: inline-block;;
+	padding: 30px;
+	background-color: #f5f4f1;
+}
+
+a {
+	text-decoration: none;
+	text-align: right;
+}
+
+.image {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 10px;
+	border-right: 3px solid #bc8c59;
+}
+
+.image .source {
+	width: 450px;
+	height: 360px;
+}
+
+.title {
+	display: inline-block;
+	vertical-align: top;
+	width:  225px;
+	padding-left: 5px;
+}
