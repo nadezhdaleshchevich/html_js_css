@@ -5,8 +5,16 @@
 }
 
 a {
+	float: right;
 	text-decoration: none;
 	text-align: right;
+	color: #000000;
+	font-size: 26px;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
 }
 
 .image {
@@ -16,9 +24,8 @@ a {
 	border-right: 3px solid #bc8c59;
 }
 
-.image .source {
+.image .photo {
 	width: 450px;
-	height: 360px;
 }
 
 .title {
