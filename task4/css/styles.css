@@ -1,0 +1,161 @@
+body {
+	background: #f6f5f3;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1070px;
+}
+
+.left {
+	float: left;
+	margin: 0 10px;
+	width: 700px;
+	background-color: #ffffff;
+}
+
+.right {
+	float: left;
+	margin: 0 10px;
+	width: 330px;
+}
+
+header {
+	padding: 30px 40px;
+}
+
+.photo {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;	
+	margin-right: 10px;
+}
+
+.photo img {
+	height: 100%;
+}
+
+.title {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.title h1 {
+	padding: 0;
+	margin: 0;
+}
+
+.title p {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+.title .post-link-title {
+	font-weight: bold;
+	max-width: 196px;
+} 
+
+.title p img {
+	height: 12px;
+}
+
+.title .info{
+	color: #7c7b7b;
+}
+
+.content-photo {
+	text-align: center;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.content-photo .image {
+	max-width: 100%;
+}
+
+.content-photo .edit {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -35px;
+}
+
+.content-text {
+	margin: 0px 20px 40px;
+}
+
+footer a {
+	text-decoration: none;	
+	float: right;
+}
+
+footer .read-more {	
+	font-weight: bold;
+	color: #ffffff;
+	background: #68bf6d;
+	font-size: 17px;
+	padding: 10px 15px;
+}
+
+footer .read-more img {
+	height: 15px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.left footer .link {
+	background: #343434;
+	padding: 10px 15px;
+	font-size: 20px;
+	height: 20px;
+}
+
+.block {	
+	margin-bottom: 30px;
+}
+
+.block .block-title {
+	padding: 20px;
+	margin-bottom: 1px;
+	background: #ffffff;
+	font-weight: bold;
+}
+
+.block .block-content {
+	padding: 20px;
+	background: #ffffff;
+}
+
+.block-content a {
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+}
+
+.block-content hr {
+	border-color: #f6f5f3;
+}
+
+.block-content .post-link {
+	margin-bottom: 5px;
+}
+
+form .search-field {
+	background: #000000;
+	height: 30px;	
+	border: 0;
+	color: #ffffff;
+}
+
+form .search-button {
+	background: #66c071;
+	height: 30px;	
+	border: 0;
+	color: #ffffff;
+	font-weight: bold;
+}
